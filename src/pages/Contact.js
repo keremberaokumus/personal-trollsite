@@ -7,7 +7,7 @@ function Contact() {
       <div className="rightSide">
         <h1>Contact Him if you are interested!</h1>
 
-        <form id="contact-form" name="contact" method="POST" data-netlify="true">
+        <form id="contact-form" name="contact" method="POST" data-netlify="true" onSubmit="submit">
           <input type="hidden" name="form-name" value="contact" />
     
           <label htmlFor="name">Full Name</label>
