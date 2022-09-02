@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import Logo from "../assets/burgerLogo.png";
 import { Link } from "react-router-dom";
 import "../styles/NavBar.css";
-import ReorderRoundedIcon from "@mui/icons-material/ReorderRounded";
-import { Button } from "@mui/material";
 
 function NavBar() {
   const [openLinks, setOpenLinks] = useState(false);
@@ -31,9 +29,6 @@ function NavBar() {
         <Link to="/menu">Menu </Link>
         <Link to="/about">About </Link>
         <Link to="/contact">Contact </Link>
-        <Button onClick={toggleNavbar}>
-          <ReorderRoundedIcon />
-        </Button>
       </div>
     </div>
   );
